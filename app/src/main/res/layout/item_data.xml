@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+    <TextView
+        android:text="Wind"
+        android:id="@+id/txName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/iv"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:text="1"
+        android:id="@+id/txId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txName"
+        android:layout_toRightOf="@id/iv"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_margin="10dp"
+        android:text="URL"
+        android:id="@+id/txLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txId"
+        android:layout_toRightOf="@id/iv"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>
